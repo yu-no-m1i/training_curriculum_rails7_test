@@ -1,4 +1,4 @@
-indexclass CalendarsController < ApplicationController
+class CalendarsController < ApplicationController
 
   # １週間のカレンダーと予定が表示されるページ
   def index
@@ -36,3 +36,4 @@ indexclass CalendarsController < ApplicationController
       @week_days.push(days)
     end
   end
+end
