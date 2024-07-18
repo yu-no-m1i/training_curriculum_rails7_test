@@ -36,6 +36,3 @@ indexclass CalendarsController < ApplicationController
       @week_days.push(days)
     end
   end
-
-  end
-end
